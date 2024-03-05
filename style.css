@@ -30,7 +30,9 @@ body {
   padding: 0px;
   cursor: pointer;
   transition-duration: 1s, 500ms;
-  transition-property: height, background-color;
+  transition-property: all;
+  transition-delay: 500ms;
+  transition-timing-function: steps(4, end);
 }
 
 .link:hover {
